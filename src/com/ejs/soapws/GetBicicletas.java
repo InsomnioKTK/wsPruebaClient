@@ -1,5 +1,5 @@
 
-package com.ejs;
+package com.ejs.soapws;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -7,12 +7,12 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Clase Java para getBicicletasXML complex type.
+ * <p>Clase Java para getBicicletas complex type.
  * 
  * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
- * &lt;complexType name="getBicicletasXML">
+ * &lt;complexType name="getBicicletas">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
@@ -25,8 +25,8 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "getBicicletasXML")
-public class GetBicicletasXML {
+@XmlType(name = "getBicicletas")
+public class GetBicicletas {
 
 
 }

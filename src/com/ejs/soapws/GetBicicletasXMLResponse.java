@@ -1,5 +1,5 @@
 
-package com.ejs;
+package com.ejs.soapws;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -8,16 +8,16 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Clase Java para getBicicletaResponse complex type.
+ * <p>Clase Java para getBicicletasXMLResponse complex type.
  * 
  * <p>El siguiente fragmento de esquema especifica el contenido que se espera que haya en esta clase.
  * 
  * <pre>
- * &lt;complexType name="getBicicletaResponse">
+ * &lt;complexType name="getBicicletasXMLResponse">
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="return" type="{http://ejs.com/}bicicleta" minOccurs="0"/>
+ *         &lt;element name="return" type="{http://www.w3.org/2001/XMLSchema}string" minOccurs="0"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -27,23 +27,23 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "getBicicletaResponse", propOrder = {
+@XmlType(name = "getBicicletasXMLResponse", propOrder = {
     "_return"
 })
-public class GetBicicletaResponse {
+public class GetBicicletasXMLResponse {
 
     @XmlElement(name = "return")
-    protected Bicicleta _return;
+    protected String _return;
 
     /**
      * Obtiene el valor de la propiedad return.
      * 
      * @return
      *     possible object is
-     *     {@link Bicicleta }
+     *     {@link String }
      *     
      */
-    public Bicicleta getReturn() {
+    public String getReturn() {
         return _return;
     }
 
@@ -52,10 +52,10 @@ public class GetBicicletaResponse {
      * 
      * @param value
      *     allowed object is
-     *     {@link Bicicleta }
+     *     {@link String }
      *     
      */
-    public void setReturn(Bicicleta value) {
+    public void setReturn(String value) {
         this._return = value;
     }
 

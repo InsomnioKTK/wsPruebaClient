@@ -1,0 +1,6 @@
+Cliente de wsPrueba
+
+1º creado como java Project
+2º wsimport -keep http://localhost:8080/wsPrueba/bicicletas?wsdl
+3º copiamos fuentes a proyecto cliente
+4º generación de MAin 

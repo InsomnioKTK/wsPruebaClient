@@ -1,5 +1,5 @@
 
-package com.ejs;
+package com.ejs.soapws;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
